@@ -1,8 +1,15 @@
 package com.codecool.musiclibrary.ui;
 
+import com.codecool.musiclibrary.service.logger.Logger;
+
 import java.util.Scanner;
 
 public class MusicLibraryUi {
+    private final Logger logger;
+
+    public MusicLibraryUi(Logger logger) {
+        this.logger = logger;
+    }
 
     public void run() {
         displayWelcomeMessage();
@@ -23,17 +30,17 @@ public class MusicLibraryUi {
         }
     }
 
-    private static void displayWelcomeMessage() {
-        System.out.println("Welcome to Codecool Music Library.");
+    private void displayWelcomeMessage() {
+        logger.info("Welcome to Codecool Music Library.");
     }
 
-    private static void displayMenu() {
-        System.out.println("1 - Add Song");
-        System.out.println("2 - View Library");
-        System.out.println("3 - Search Songs");
-        System.out.println("4 - Remove Song");
-        System.out.println("5 - Clear Library");
-        System.out.println("6 - Exit");
+    private void displayMenu() {
+        logger.info("1 - Add Song");
+        logger.info("2 - View Library");
+        logger.info("3 - Search Songs");
+        logger.info("4 - Remove Song");
+        logger.info("5 - Clear Library");
+        logger.info("6 - Exit");
     }
 
     private static int getCode() {

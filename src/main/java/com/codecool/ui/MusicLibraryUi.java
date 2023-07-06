@@ -1,14 +1,19 @@
 package com.codecool.ui;
 
+import com.codecool.model.Library;
 import com.codecool.service.Logger;
+
+import static java.lang.System.*;
 
 import java.util.Scanner;
 
 public class MusicLibraryUi {
     private final Logger logger;
+    private final Library library;
 
-    public MusicLibraryUi(Logger logger) {
+    public MusicLibraryUi(Logger logger, Library library) {
         this.logger = logger;
+        this.library = library;
     }
 
     public void run() {
@@ -48,7 +53,16 @@ public class MusicLibraryUi {
         return scanner.nextInt();
     }
 
-    private static void addSong() {
+    private void addSong() {
+        Scanner scanner = new Scanner(in);
+        logger.info("Enter the name of the song: ");
+        String title = scanner.nextLine();
+        logger.info("Enter the name of the artist: ");
+        String artist = scanner.nextLine();
+        logger.info("Enter the duration of the song in seconds: ");
+        int duration = scanner.nextInt();
+        library.addSong(title, artist, duration);
+        logger.info("Song added successfully.");
     }
 
     private static void viewLibrary() {

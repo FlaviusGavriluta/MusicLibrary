@@ -65,7 +65,8 @@ public class MusicLibraryUi {
         logger.info("Song added successfully.");
     }
 
-    private static void viewLibrary() {
+    private void viewLibrary() {
+        library.viewLibrary();
     }
 }
 

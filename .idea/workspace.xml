@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93460d13-1410-4e5f-bea3-e04af8c699a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/model/SongManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/service/impl/ConsoleLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/service/impl/ConsoleLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/model/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.codecool.model" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="music-library-java-FlaviusGavriluta" />
@@ -83,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685288915072</updated>
       <workItem from="1685288916437" duration="2656000" />
-      <workItem from="1688634053197" duration="2039000" />
+      <workItem from="1688634053197" duration="5469000" />
     </task>
     <servers />
   </component>

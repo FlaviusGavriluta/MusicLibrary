@@ -2,6 +2,7 @@ package com.codecool.ui;
 
 import com.codecool.model.Library;
 import com.codecool.service.Logger;
+import com.codecool.ui.ConsoleMenu;
 
 import static java.lang.System.*;
 
@@ -10,42 +11,31 @@ import java.util.Scanner;
 public class MusicLibraryUi {
     private final Logger logger;
     private final Library library;
+    private final ConsoleMenu consoleMenu;
 
     public MusicLibraryUi(Logger logger, Library library) {
         this.logger = logger;
         this.library = library;
+        this.consoleMenu = new ConsoleMenu(logger);
     }
 
     public void run() {
-        displayWelcomeMessage();
+        consoleMenu.displayWelcomeMessage();
 
         int code = 0;
 
         while (code != 6) {
-            displayMenu();
+            consoleMenu.displayMenu();
             code = getCode();
 
             switch (code) {
                 case 1 -> addSong();
                 case 2 -> viewLibrary();
-
-                //...
+                case 3 -> searchSongs();
+                case 4 -> removeSong();
+                case 5 -> clearLibrary();
             }
-            //...
         }
-    }
-
-    private void displayWelcomeMessage() {
-        logger.info("Welcome to Codecool Music Library.");
-    }
-
-    private void displayMenu() {
-        logger.info("1 - Add Song");
-        logger.info("2 - View Library");
-        logger.info("3 - Search Songs");
-        logger.info("4 - Remove Song");
-        logger.info("5 - Clear Library");
-        logger.info("6 - Exit");
     }
 
     private static int getCode() {

@@ -1,4 +1,4 @@
-package com.codecool.musiclibrary.model;
+package com.codecool.model;
 
 public record Song(String title, String artist, int lengthInSeconds) {
     public String getArtist() {

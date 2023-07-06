@@ -1,4 +1,4 @@
-package com.codecool.musiclibrary.model;
+package com.codecool.model;
 
 import java.util.Collection;
 import java.util.Comparator;

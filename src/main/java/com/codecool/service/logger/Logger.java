@@ -1,4 +1,4 @@
-package com.codecool.musiclibrary.service.logger;
+package com.codecool.service.logger;
 
 public interface Logger {
     void info(String message);

@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eca1218-72dd-4686-80c5-558ca2669bf9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/musiclibrary/service/impl/ConsoleLogger.java" afterDir="false" />
+    <list default="true" id="93460d13-1410-4e5f-bea3-e04af8c699a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/musiclibrary/model/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/musiclibrary/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/musiclibrary/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/musiclibrary/ui/MusicLibraryUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/musiclibrary/ui/MusicLibraryUi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/musiclibrary/model/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/musiclibrary/model/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/musiclibrary/model/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/musiclibrary/model/Song.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,14 +50,15 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "logger",
+    "git-widget-placeholder": "library",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Flavius/Documents/CodeCool/3. OOP with JAVA/2nd SI/1. Basic architecture/Speed Limit Fine Calculator/speed-limit-fine-calculator-1q2023-java-FlaviusGavriluta",
+    "last_opened_file_path": "C:/Users/Flavius/Documents/CodeCool/3. OOP with JAVA/2nd TW/ehotel-buffet-java-ChircuAndrei",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -97,5 +94,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

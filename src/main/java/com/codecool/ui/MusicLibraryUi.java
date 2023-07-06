@@ -1,6 +1,6 @@
 package com.codecool.ui;
 
-import com.codecool.service.logger.Logger;
+import com.codecool.service.Logger;
 
 import java.util.Scanner;
 

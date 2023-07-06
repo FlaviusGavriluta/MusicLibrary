@@ -75,5 +75,17 @@ public class MusicLibraryUi {
         String artist = scanner.nextLine();
         library.searchSongs(artist);
     }
+
+    private void removeSong() {
+        Scanner scanner = new Scanner(System.in);
+
+        logger.info("Enter the name of the song to remove:");
+        String title = scanner.nextLine();
+
+        library.removeSong(title);
+
+        logger.info("Song removed successfully.");
+    }
+
 }
 

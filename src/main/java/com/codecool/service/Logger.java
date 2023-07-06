@@ -1,4 +1,4 @@
-package com.codecool.service.logger;
+package com.codecool.service;
 
 public interface Logger {
     void info(String message);

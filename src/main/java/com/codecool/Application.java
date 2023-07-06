@@ -1,8 +1,8 @@
 package com.codecool;
 
 import com.codecool.ui.MusicLibraryUi;
-import com.codecool.service.logger.Logger;
-import com.codecool.service.impl.ConsoleLogger;
+import com.codecool.service.Logger;
+import com.codecool.service.ConsoleLogger;
 
 public class Application {
     public static void main(String[] args) {

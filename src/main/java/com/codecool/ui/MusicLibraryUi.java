@@ -68,5 +68,12 @@ public class MusicLibraryUi {
     private void viewLibrary() {
         library.viewLibrary();
     }
+
+    private void searchSongs() {
+        Scanner scanner = new Scanner(in);
+        logger.info("Enter the name of the artist: ");
+        String artist = scanner.nextLine();
+        library.searchSongs(artist);
+    }
 }
 

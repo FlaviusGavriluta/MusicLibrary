@@ -87,5 +87,9 @@ public class MusicLibraryUi {
         logger.info("Song removed successfully.");
     }
 
+    private void clearLibrary() {
+        library.clearLibrary();
+        logger.info("Library cleared successfully.");
+    }
 }
 

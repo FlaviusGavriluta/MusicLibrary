@@ -1,6 +1,6 @@
-package com.codecool.musiclibrary.ui;
+package com.codecool.ui;
 
-import com.codecool.musiclibrary.service.logger.Logger;
+import com.codecool.service.logger.Logger;
 
 import java.util.Scanner;
 

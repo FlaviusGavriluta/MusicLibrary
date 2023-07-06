@@ -1,6 +1,6 @@
-package com.codecool.musiclibrary.service.impl;
+package com.codecool.service.impl;
 
-import com.codecool.musiclibrary.service.logger.Logger;
+import com.codecool.service.logger.Logger;
 
 public class ConsoleLogger implements Logger {
 

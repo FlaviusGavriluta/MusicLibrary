@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93460d13-1410-4e5f-bea3-e04af8c699a3" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ui/ConsoleMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ui/MusicLibraryUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ui/MusicLibraryUi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ui/MusicLibraryUi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ui/MusicLibraryUi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "clear",
+    "git-widget-placeholder": "development",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Flavius/Documents/CodeCool/3. OOP with JAVA/2nd TW/ehotel-buffet-java-ChircuAndrei",
     "node.js.detected.package.eslint": "true",

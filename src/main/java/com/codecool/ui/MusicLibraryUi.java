@@ -2,7 +2,6 @@ package com.codecool.ui;
 
 import com.codecool.model.Library;
 import com.codecool.service.Logger;
-import com.codecool.ui.ConsoleMenu;
 
 import static java.lang.System.*;
 
